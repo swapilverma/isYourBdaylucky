@@ -6,15 +6,21 @@ h1{
 
 body{
   font-family: 'Nunito', sans-serif;
-  background-color: black; 
-  color: white;
+  background-color: #e0e2e4; 
+  color: black;
   text-align: center;
   
 }
 
 .container{
+
   width: 40%;
-  margin: auto;
+  margin: 2rem auto auto auto;
+}
+
+label{
+  margin: 5rem auto 5rem auto;
+  font-weight: bold;
 }
 
 #date-of-birth,#lucky-number{
@@ -23,22 +29,40 @@ body{
 
 input{
   display: block;
-  height: 1.5rem;
-  width: 100%;
-  margin: 0.25rem;
-  border-radius: 0.25rem
+  height: 2.5rem;
+  width: 80%;
+  margin: 0.2rem auto 2rem auto;
+  border-radius: 0.5rem;
+  max-width: 300px ;
   
 }
 
 #check-btn{
   display: block;
   width: 40%;
+  max-width: 150px ;
   padding: 0.5rem;
   border-radius: 0.3rem;
   border-width: medium;
-  margin-top: 8rem;
-  margin:auto;
+  margin: 3rem auto 5rem auto;
   background: transparent;
-  border-color: white;
-  color: white;
+  border-color: black;
+  color: black;
+}
+
+footer{
+  margin-top: 10rem;
+  font-size: larger
+}
+.link {
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0.3rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: black
 }
